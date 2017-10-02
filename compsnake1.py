@@ -5,11 +5,11 @@ playSurface = pygame.display.set_mode((720, 460))
 pygame.display.set_caption('Snake game!')
 
 
-red = pygame.Color(255, 0, 0) # gameover
-green = pygame.Color(0, 255, 0) #snake
-black = pygame.Color(0, 0, 0) #score
-white = pygame.Color(255, 255, 255) #background
-brown = pygame.Color(165, 42, 42) #food
+red = pygame.Color(255, 0, 0)
+green = pygame.Color(0, 255, 0) 
+black = pygame.Color(0, 0, 0) 
+white = pygame.Color(255, 255, 255) 
+brown = pygame.Color(165, 42, 42) 
 fpsController = pygame.time.Clock()
 snakePos = [100, 50]
 snakeBody = [[100,50], [90,50], [80,50]]
