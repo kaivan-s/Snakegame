@@ -109,5 +109,4 @@ while True:
             gameOver()#If the snake hits himself
     showScore()
     pygame.display.flip()
-
     fpsController.tick(24)
